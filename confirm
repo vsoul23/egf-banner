@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner de Agradecimiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            width: 70vh;
+        }
+        .banner {
+            background-color: #B5903A;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            max-width: 600px;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: -0.5px;
+        }
+        .banner p {
+            margin: 5px 0 0;
+            font-size: 12px;
+            letter-spacing: -0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Muchas gracias por contactarte con nosotros</h1>
+        <p>Hemos recibido su solicitud correctamente y nos pondremos en contacto en seguida</p>
+    </div>
+</body>
+</html>
